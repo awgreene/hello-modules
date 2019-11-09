@@ -1,6 +1,7 @@
 package hello
 
-// Hello returns a hello world string.
+import "rsc.io/quote"
+
 func Hello() string {
-	return "Hello, world."
+	return quote.Hello()
 }
